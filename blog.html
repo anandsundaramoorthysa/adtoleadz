@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - AdtoLeadz Digital Marketing Agency</title>
+    <meta name="description" content="Stay updated with the latest digital marketing trends, tips, and insights from AdtoLeadz. Expert advice on web design, SEO, social media marketing, and more.">
+    <meta name="keywords" content="digital marketing blog, SEO tips, social media marketing, web design trends, marketing insights, AdtoLeadz blog">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="blog-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="AdtoLeadz Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="web-design.html">Web Design</a></li>
+                            <li><a class="dropdown-item" href="social-media-marketing.html">Social Media Marketing</a></li>
+                            <li><a class="dropdown-item" href="seo.html">Search Engine Optimization</a></li>
+                            <li><a class="dropdown-item" href="smo.html">Social Media Optimization</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-50">
+                <div class="col-lg-12 text-center">
+                    <h1 class="hero-title" data-aos="fade-up">Digital Marketing Blog</h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Expert insights, latest trends, and actionable tips to grow your business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5" data-aos="fade-up">Featured Articles</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="featured-post">
+                        <div class="featured-card">
+                            <div class="featured-image">
+                                <img src="https://via.placeholder.com/800x400/2E78C0/FFFFFF?text=Featured+Article" alt="Featured Post" class="img-fluid">
+                                <div class="featured-badge">
+                                    <i class="fas fa-star"></i> Featured
+                                </div>
+                                <div class="featured-overlay">
+                                    <a href="single-blog.html" class="btn btn-light btn-lg">
+                                        <i class="fas fa-arrow-right me-2"></i>Read Article
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="featured-content">
+                                <div class="featured-meta">
+                                    <span class="meta-item">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        December 15, 2024
+                                    </span>
+                                    <span class="meta-item">
+                                        <i class="fas fa-user"></i>
+                                        Sarah Johnson
+                                    </span>
+                                    <span class="meta-item">
+                                        <i class="fas fa-clock"></i>
+                                        8 min read
+                                    </span>
+                                </div>
+                                <h2 class="featured-title">The Complete Guide to SEO in 2024: Everything You Need to Know</h2>
+                                <p class="featured-excerpt">Discover the latest SEO strategies, algorithm updates, and best practices that will help your website rank higher in search results. Learn about technical SEO, content optimization, and link building techniques that actually work in 2024.</p>
+                                <div class="featured-tags">
+                                    <span class="tag">SEO</span>
+                                    <span class="tag">Search Engine Optimization</span>
+                                    <span class="tag">Digital Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="trending-posts">
+                        <h4 class="trending-title">
+                            <i class="fas fa-fire text-danger"></i>
+                            Trending Now
+                        </h4>
+                        <div class="trending-list">
+                            <div class="trending-item">
+                                <div class="trending-number">01</div>
+                                <div class="trending-content">
+                                    <h6><a href="single-blog.html">AI-Powered Marketing: The Future is Here</a></h6>
+                                    <span class="trending-meta">Dec 14, 2024 • 5 min read</span>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <div class="trending-number">02</div>
+                                <div class="trending-content">
+                                    <h6><a href="single-blog.html">Social Media Marketing Trends for 2024</a></h6>
+                                    <span class="trending-meta">Dec 12, 2024 • 6 min read</span>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <div class="trending-number">03</div>
+                                <div class="trending-content">
+                                    <h6><a href="single-blog.html">Web Design Psychology: Colors That Convert</a></h6>
+                                    <span class="trending-meta">Dec 10, 2024 • 7 min read</span>
+                                </div>
+                            </div>
+                            <div class="trending-item">
+                                <div class="trending-number">04</div>
+                                <div class="trending-content">
+                                    <h6><a href="single-blog.html">Email Marketing Automation: Complete Guide</a></h6>
+                                    <span class="trending-meta">Dec 8, 2024 • 9 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-center mb-5" data-aos="fade-up">Browse by Category</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h5>SEO</h5>
+                        <p>12 Articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h5>Social Media</h5>
+                        <p>8 Articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h5>Web Design</h5>
+                        <p>6 Articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <h5>Content</h5>
+                        <p>10 Articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h5>Email Marketing</h5>
+                        <p>5 Articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5>Analytics</h5>
+                        <p>7 Articles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog-header mb-5" data-aos="fade-up">
+                        <h2 class="section-title">Latest Articles</h2>
+                        <p class="section-subtitle">Stay updated with the latest insights and trends in digital marketing</p>
+                    </div>
+
+                    <!-- Blog Grid -->
+                    <div class="row">
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/60B0E0/FFFFFF?text=Social+Media+Marketing" alt="Social Media Marketing" class="img-fluid">
+                                    <div class="blog-category-badge">Social Media</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 12, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By Michael Chen</span>
+                                    </div>
+                                    <h4 class="blog-title">Social Media Marketing Trends 2024</h4>
+                                    <p class="blog-excerpt">Learn about the emerging trends in social media marketing and how to leverage them for your business growth. From video content to AI-powered tools.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>6 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/1A4A80/FFFFFF?text=Web+Design" alt="Web Design" class="img-fluid">
+                                    <div class="blog-category-badge">Web Design</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 10, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By Emily Rodriguez</span>
+                                    </div>
+                                    <h4 class="blog-title">Web Design Best Practices for 2024</h4>
+                                    <p class="blog-excerpt">Explore the fundamental principles of effective web design that create engaging user experiences and drive conversions. Learn about modern design trends and techniques.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>7 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/2E78C0/FFFFFF?text=Content+Marketing" alt="Content Marketing" class="img-fluid">
+                                    <div class="blog-category-badge">Content</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 8, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By David Kim</span>
+                                    </div>
+                                    <h4 class="blog-title">Content Marketing Strategy That Works</h4>
+                                    <p class="blog-excerpt">Discover how to create a content marketing strategy that engages your audience and drives business results. Learn about content planning, creation, and distribution.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>8 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/60B0E0/FFFFFF?text=Email+Marketing" alt="Email Marketing" class="img-fluid">
+                                    <div class="blog-category-badge">Email Marketing</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 5, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By Sarah Johnson</span>
+                                    </div>
+                                    <h4 class="blog-title">Email Marketing Automation Tips</h4>
+                                    <p class="blog-excerpt">Learn how to set up effective email marketing automation campaigns that nurture leads and convert prospects into customers. Best practices and tools included.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>9 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/1A4A80/FFFFFF?text=Analytics" alt="Analytics" class="img-fluid">
+                                    <div class="blog-category-badge">Analytics</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 3, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By Michael Chen</span>
+                                    </div>
+                                    <h4 class="blog-title">Digital Marketing Analytics Guide</h4>
+                                    <p class="blog-excerpt">Understand how to measure and analyze your digital marketing performance. Learn about key metrics, tools, and how to make data-driven decisions.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>10 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                            <div class="blog-card">
+                                <div class="blog-image">
+                                    <img src="https://via.placeholder.com/400x250/2E78C0/FFFFFF?text=PPC+Advertising" alt="PPC Advertising" class="img-fluid">
+                                    <div class="blog-category-badge">PPC</div>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <span class="blog-date"><i class="fas fa-calendar me-1"></i>December 1, 2024</span>
+                                        <span class="blog-author"><i class="fas fa-user me-1"></i>By Emily Rodriguez</span>
+                                    </div>
+                                    <h4 class="blog-title">PPC Advertising Best Practices</h4>
+                                    <p class="blog-excerpt">Master the art of pay-per-click advertising with our comprehensive guide. Learn about campaign setup, keyword research, and optimization techniques.</p>
+                                    <div class="blog-footer">
+                                        <span class="read-time"><i class="fas fa-clock me-1"></i>11 min read</span>
+                                        <a href="single-blog.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Load More Button -->
+                    <div class="text-center mt-5" data-aos="fade-up">
+                        <button class="btn btn-primary btn-lg">
+                            <i class="fas fa-plus me-2"></i>Load More Articles
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="blog-sidebar">
+                        <!-- Search -->
+                        <div class="sidebar-widget mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <h5 class="widget-title">
+                                <i class="fas fa-search me-2"></i>Search Articles
+                            </h5>
+                            <div class="search-form">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search articles...">
+                                        <button class="btn btn-primary" type="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter -->
+                        <div class="sidebar-widget mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <h5 class="widget-title">
+                                <i class="fas fa-envelope me-2"></i>Newsletter
+                            </h5>
+                            <div class="newsletter-form">
+                                <p>Get the latest digital marketing insights delivered to your inbox weekly.</p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your email address">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-paper-plane me-2"></i>Subscribe
+                                    </button>
+                                </form>
+                                <small class="text-muted">No spam, unsubscribe at any time.</small>
+                            </div>
+                        </div>
+
+                        <!-- Recent Posts -->
+                        <div class="sidebar-widget mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <h5 class="widget-title">
+                                <i class="fas fa-clock me-2"></i>Recent Posts
+                            </h5>
+                            <div class="recent-posts">
+                                <div class="recent-post">
+                                    <div class="recent-post-image">
+                                        <img src="https://via.placeholder.com/80x60/2E78C0/FFFFFF?text=SEO" alt="Recent Post" class="img-fluid">
+                                    </div>
+                                    <div class="recent-post-content">
+                                        <h6><a href="single-blog.html">10 Essential SEO Tips for 2024</a></h6>
+                                        <span class="recent-post-date">Dec 15, 2024</span>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="recent-post-image">
+                                        <img src="https://via.placeholder.com/80x60/60B0E0/FFFFFF?text=SMM" alt="Recent Post" class="img-fluid">
+                                    </div>
+                                    <div class="recent-post-content">
+                                        <h6><a href="single-blog.html">Social Media Marketing Trends 2024</a></h6>
+                                        <span class="recent-post-date">Dec 12, 2024</span>
+                                    </div>
+                                </div>
+                                <div class="recent-post">
+                                    <div class="recent-post-image">
+                                        <img src="https://via.placeholder.com/80x60/1A4A80/FFFFFF?text=Web" alt="Recent Post" class="img-fluid">
+                                    </div>
+                                    <div class="recent-post-content">
+                                        <h6><a href="single-blog.html">Web Design Best Practices for 2024</a></h6>
+                                        <span class="recent-post-date">Dec 10, 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tags -->
+                        <div class="sidebar-widget mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <h5 class="widget-title">
+                                <i class="fas fa-tags me-2"></i>Popular Tags
+                            </h5>
+                            <div class="tag-cloud">
+                                <a href="#" class="tag">SEO</a>
+                                <a href="#" class="tag">Social Media</a>
+                                <a href="#" class="tag">Web Design</a>
+                                <a href="#" class="tag">Content Marketing</a>
+                                <a href="#" class="tag">Email Marketing</a>
+                                <a href="#" class="tag">Analytics</a>
+                                <a href="#" class="tag">PPC</a>
+                                <a href="#" class="tag">Digital Marketing</a>
+                                <a href="#" class="tag">Strategy</a>
+                                <a href="#" class="tag">Tips</a>
+                            </div>
+                        </div>
+
+                        <!-- CTA -->
+                        <div class="sidebar-widget" data-aos="fade-up" data-aos-delay="500">
+                            <div class="cta-widget">
+                                <h5>Need Help with Your Digital Marketing?</h5>
+                                <p>Let our experts help you grow your business with proven strategies and results.</p>
+                                <a href="contact.html" class="btn btn-primary w-100">
+                                    <i class="fas fa-rocket me-2"></i>Get Started Today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="images/logo.png" alt="AdtoLeadz Logo" height="40" class="mb-3">
+                        <p>Transforming businesses through innovative digital marketing solutions. We help you grow, engage, and convert your audience into loyal customers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="smo.html">SMO</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Info</h5>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Madurai, Tamil Nadu, India</p>
+                        <p><i class="fas fa-phone me-2"></i>+91 86107 78492</p>
+                        <p><i class="fas fa-envelope me-2"></i>info@adtoleadz.com</p>
+                    </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; 2024 AdtoLeadz. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
